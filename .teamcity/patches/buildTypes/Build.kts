@@ -15,7 +15,7 @@ changeBuildType(RelativeId("Build")) {
                     options = listOf("a", "b", "c"))
         }
         update {
-            select("env.reqular", "regular1",
+            select("env.reqular", "regular2",
                     options = listOf("a", "b", "c"))
         }
     }
