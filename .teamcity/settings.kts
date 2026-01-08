@@ -34,7 +34,8 @@ object Build : BuildType({
             vaultId = "vaultchubatova"
             param("buildTypeId", "Project1_Build")
         }
-        param("env.reqular", "regular1")
+         select("env.reqular", "regular1",
+                    options = listOf("a", "b", "c"))
     }
 
     vcs {
